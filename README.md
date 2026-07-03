@@ -1,16 +1,16 @@
-# Kapchan — creative space, Lobitos, Peru
+# Kapchay — cultural & creative center, Lobitos, Peru
 
-A clean, bilingual (EN/ES) one-page site for **Kapchan**, the creative space in
-Lobitos that hosts artist residencies and free art programs for the community.
-Plain HTML/CSS/JS — no build step. Sister site to the artist's personal site at
-**tataintiart.com**.
+A clean, bilingual (EN/ES) one-page site for **Kapchay**, the cultural and
+creative center in Lobitos hosted by the artist Inti, home to artist
+residencies and free art programs for the community. Plain HTML/CSS/JS — no
+build step. Sister site to the artist's personal site at **tataintiart.com**.
 
 ```
 index.html    · the page
 styles.css    · styling
 app.js        · language toggle, space gallery, lightbox, WhatsApp links
 config.js     · ★ edit contact details + the artist-site link here
-images/       · brand (Kapchan mural), space photos, gallery
+images/       · brand (Kapchay mural), space photos, gallery
 ```
 
 ## Editing

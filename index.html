@@ -3,20 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kapchan — Creative space · Lobitos, Peru</title>
+  <title>Kapchay — Cultural &amp; creative center · Lobitos, Peru</title>
   <meta name="description" data-i18n="meta_desc"
-        content="Kapchan — a creative space in Lobitos, Peru, home to artist residencies and free art programs for the community." />
+        content="Kapchay is a cultural and creative center in Lobitos, Peru, hosted by the artist Inti — home to artist residencies and free art programs for the community." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,900&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,900&family=UnifrakturMaguntia&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .brand-name{ font-family:var(--display); font-weight:900; font-size:1.5rem; letter-spacing:.04em; color:var(--ink); line-height:1; }
-    .hero-title-text{ font-family:var(--display); font-weight:900; letter-spacing:.03em;
-      font-size:clamp(3.4rem,11vw,7rem); line-height:.95; margin:0 0 .2em;
+    .brand-name{ font-family:"UnifrakturMaguntia", var(--display); font-weight:400; font-size:1.9rem; letter-spacing:.02em; color:var(--ink); line-height:1; }
+    .hero-title-text{ font-family:"UnifrakturMaguntia", var(--display); font-weight:400; letter-spacing:.01em;
+      font-size:clamp(3.8rem,12vw,8rem); line-height:.95; margin:0 0 .2em;
       text-shadow:0 6px 26px rgba(0,0,0,.45); }
-    .about-fig.kap img{ aspect-ratio:auto; max-height:560px; width:100%; object-fit:contain;
-      background:#fff; padding:14px; box-shadow:var(--shadow); border-radius:12px; }
+    .about-fig.kap img{ aspect-ratio:4/3; width:100%; object-fit:cover; box-shadow:var(--shadow); border-radius:12px; }
     .artist-band{ display:grid; grid-template-columns:.8fr 1.2fr; gap:clamp(28px,5vw,60px); align-items:center; }
     .artist-band .split-fig img{ aspect-ratio:3/4; }
     @media (max-width:760px){ .artist-band{ grid-template-columns:1fr; } .artist-band .split-fig{ order:-1; } }
@@ -28,7 +27,7 @@
   <header class="site-header" id="top">
     <div class="bar">
       <a class="brand" href="#top">
-        <span class="brand-name">Kapchan</span>
+        <span class="brand-name">Kapchay</span>
         <span class="brand-loc" data-i18n="header_loc">Lobitos · Piura · Peru</span>
       </a>
       <nav class="nav" aria-label="Main">
@@ -55,11 +54,12 @@
     <div class="hero-img" style="background-image:url('images/space/hero.jpg')"></div>
     <div class="hero-veil"></div>
     <div class="hero-inner">
-      <p class="hero-eyebrow" data-i18n="hero_eyebrow">Creative space · Lobitos, Peru</p>
-      <h1 class="hero-title-text">Kapchan</h1>
+      <p class="hero-eyebrow" data-i18n="hero_eyebrow">Cultural &amp; creative center · Lobitos, Peru</p>
+      <h1 class="hero-title-text">Kapchay</h1>
       <p class="hero-sub" data-i18n="hero_sub">
-        A creative space on the north coast of Peru — home to artist residencies
-        and free art programs for the community.
+        A cultural and creative center on the north coast of Peru, hosted by
+        the artist Inti — home to artist residencies and free art programs
+        for the community.
       </p>
       <div class="hero-cta">
         <a class="btn btn-solid" href="#residency" data-i18n="hero_cta1">Artist residencies</a>
@@ -72,21 +72,22 @@
   <section class="section" id="about">
     <div class="wrap about-grid">
       <div class="about-text">
-        <p class="eyebrow" data-i18n="about_eyebrow">The space</p>
-        <h2 data-i18n="about_title">What is Kapchan?</h2>
+        <p class="eyebrow" data-i18n="about_eyebrow">Hosted by Inti</p>
+        <h2 data-i18n="about_title">What is Kapchay?</h2>
         <p data-i18n="about_p1">
-          Kapchan is a large creative space in Lobitos, a surf town on the desert
-          coast of Piura, in northern Peru. Once an empty warehouse, it is now a
-          living studio — white brick walls, open light, murals on every surface —
-          where people come to make, live and learn together.
+          Kapchay is a cultural and creative center in Lobitos, a surf town on
+          the desert coast of Piura, in northern Peru. Once an empty warehouse,
+          it is now a living studio — white brick walls, open light, murals on
+          every surface — where people come to make, live and learn together.
         </p>
         <p data-i18n="about_p2">
-          It is the home and workshop of the artist Inti, and an open door for
-          visiting artists and local children alike. Here, art is something shared.
+          Kapchay is hosted by the artist Inti, who lives and works here and
+          keeps its doors open to visiting artists and local children alike.
+          Here, art is something shared.
         </p>
       </div>
       <figure class="about-fig kap">
-        <img src="images/brand/kapchan-art.jpg" alt="The Kapchan mural — a fish beneath a red sun" loading="lazy" />
+        <img src="images/brand/kapchay-art.jpg" alt="The corner Kapchay mural — a fish beneath a red sun" loading="lazy" />
       </figure>
     </div>
   </section>
@@ -95,11 +96,11 @@
   <section class="section section-tint" id="residency">
     <div class="wrap split">
       <figure class="split-fig">
-        <img src="images/space/residency.jpg" alt="An artist at work inside Kapchan" loading="lazy" />
+        <img src="images/space/residency.jpg" alt="An artist at work inside Kapchay" loading="lazy" />
       </figure>
       <div class="split-text">
         <p class="eyebrow" data-i18n="res_eyebrow">Artists in residence</p>
-        <h2 data-i18n="res_title">Live and create at Kapchan</h2>
+        <h2 data-i18n="res_title">Live and create at Kapchay</h2>
         <p data-i18n="res_p1">
           Visiting artists are welcome to live and work in the space alongside
           Inti. Residents get room to make, access to the studio and its
@@ -120,13 +121,13 @@
   <section class="section" id="programs">
     <div class="wrap split reverse">
       <figure class="split-fig">
-        <img src="images/space/education.jpg" alt="An art workshop with local children at Kapchan" loading="lazy" />
+        <img src="images/space/education.jpg" alt="An art workshop with local children at Kapchay" loading="lazy" />
       </figure>
       <div class="split-text">
         <p class="eyebrow" data-i18n="prog_eyebrow">For the community</p>
         <h2 data-i18n="prog_title">Free art programs <span class="free-tag" data-i18n="prog_free">Free</span></h2>
         <p data-i18n="prog_p1">
-          Kapchan opens its doors to local schoolchildren with free, hands-on art
+          Kapchay opens its doors to local schoolchildren with free, hands-on art
           workshops — drawing, painting and printmaking in a real artist's space.
         </p>
         <p data-i18n="prog_p2">
@@ -141,7 +142,7 @@
   <!-- THE SPACE -->
   <section class="section section-tint" id="space">
     <div class="wrap">
-      <p class="eyebrow center" data-i18n="space_eyebrow">Inside Kapchan</p>
+      <p class="eyebrow center" data-i18n="space_eyebrow">Inside Kapchay</p>
       <h2 class="center" data-i18n="space_title">The space</h2>
       <p class="lede center" data-i18n="space_lede">
         The studio, the murals, the workshops and the people who pass through.
@@ -155,12 +156,13 @@
   <section class="section" id="artist">
     <div class="wrap artist-band">
       <div class="split-text">
-        <p class="eyebrow" data-i18n="artist_eyebrow">The artist behind the space</p>
+        <p class="eyebrow" data-i18n="artist_eyebrow">The host of Kapchay</p>
         <h2 data-i18n="artist_title">Inti</h2>
         <p data-i18n="artist_p1">
-          Kapchan is the studio of the self-taught artist Inti — known across
-          Lobitos for his fish, his faces and his tag. See his paintings, prints
-          and hand-painted clothing on his personal website.
+          Inti is the self-taught artist who hosts Kapchay, the cultural and
+          creative center he built and runs in Lobitos — known across town for
+          his fish, his faces and his tag. See his paintings, prints and
+          hand-painted clothing on his personal website.
         </p>
         <a class="btn btn-solid" id="artistLink" target="_blank" rel="noopener" href="https://tataintiart.com" data-i18n="artist_cta">Visit tataintiart.com</a>
       </div>
@@ -176,7 +178,7 @@
       <p class="eyebrow center" data-i18n="contact_eyebrow">Get in touch</p>
       <h2 class="center" data-i18n="contact_title">Visit, stay, or bring a group</h2>
       <p class="lede center" data-i18n="contact_lede">
-        Kapchan is in Lobitos, Piura. The fastest way to reach us is by message.
+        Kapchay is in Lobitos, Piura. The fastest way to reach us is by message.
       </p>
       <div class="contact-btns" id="contactBtns"></div>
       <p class="contact-loc" id="contactLoc" data-i18n="contact_loc">Lobitos · Piura · Peru</p>
@@ -186,7 +188,7 @@
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="wrap foot-inner">
-      <span class="foot-mark" style="font-family:var(--display);font-weight:900;letter-spacing:.05em;font-size:1.5rem;margin-right:auto;">Kapchan</span>
+      <span class="foot-mark" style="font-family:'UnifrakturMaguntia',var(--display);font-weight:400;letter-spacing:.02em;font-size:1.7rem;margin-right:auto;">Kapchay</span>
       <span class="foot-loc" data-i18n="footer_loc">Lobitos · Piura · Peru</span>
       <a class="foot-credit" id="footArtist" target="_blank" rel="noopener" href="https://tataintiart.com" style="color:inherit" data-i18n="footer_credit">Art by Inti · tataintiart.com</a>
     </div>

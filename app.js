@@ -1,25 +1,25 @@
 /* ============================================================
-   Kapchan — app.js  (bilingual EN/ES, space gallery + lightbox)
+   Kapchay — app.js  (bilingual EN/ES, space gallery + lightbox)
    ============================================================ */
 
 const I18N = {
   en: {
-    meta_desc: "Kapchan — a creative space in Lobitos, Peru, home to artist residencies and free art programs for the community.",
+    meta_desc: "Kapchay is a cultural and creative center in Lobitos, Peru, hosted by the artist Inti — home to artist residencies and free art programs for the community.",
     header_loc: "Lobitos · Piura · Peru",
     nav_about: "About", nav_residency: "Residency", nav_programs: "Programs",
     nav_space: "The Space", nav_artist: "The Artist", nav_contact: "Contact",
 
-    hero_eyebrow: "Creative space · Lobitos, Peru",
-    hero_sub: "A creative space on the north coast of Peru — home to artist residencies and free art programs for the community.",
+    hero_eyebrow: "Cultural & creative center · Lobitos, Peru",
+    hero_sub: "A cultural and creative center on the north coast of Peru, hosted by the artist Inti — home to artist residencies and free art programs for the community.",
     hero_cta1: "Artist residencies", hero_cta2: "Education programs",
 
-    about_eyebrow: "The space",
-    about_title: "What is Kapchan?",
-    about_p1: "Kapchan is a large creative space in Lobitos, a surf town on the desert coast of Piura, in northern Peru. Once an empty warehouse, it is now a living studio — white brick walls, open light, murals on every surface — where people come to make, live and learn together.",
-    about_p2: "It is the home and workshop of the artist Inti, and an open door for visiting artists and local children alike. Here, art is something shared.",
+    about_eyebrow: "Hosted by Inti",
+    about_title: "What is Kapchay?",
+    about_p1: "Kapchay is a cultural and creative center in Lobitos, a surf town on the desert coast of Piura, in northern Peru. Once an empty warehouse, it is now a living studio — white brick walls, open light, murals on every surface — where people come to make, live and learn together.",
+    about_p2: "Kapchay is hosted by the artist Inti, who lives and works here and keeps its doors open to visiting artists and local children alike. Here, art is something shared.",
 
     res_eyebrow: "Artists in residence",
-    res_title: "Live and create at Kapchan",
+    res_title: "Live and create at Kapchay",
     res_p1: "Visiting artists are welcome to live and work in the space alongside Inti. Residents get room to make, access to the studio and its materials, and the slow rhythm of Lobitos — the surf, the desert light, and the community around the space.",
     res_li1: "A place to live inside a working studio",
     res_li2: "Studio space and shared materials",
@@ -29,22 +29,22 @@ const I18N = {
     prog_eyebrow: "For the community",
     prog_title: "Free art programs",
     prog_free: "Free",
-    prog_p1: "Kapchan opens its doors to local schoolchildren with free, hands-on art workshops — drawing, painting and printmaking in a real artist's space.",
+    prog_p1: "Kapchay opens its doors to local schoolchildren with free, hands-on art workshops — drawing, painting and printmaking in a real artist's space.",
     prog_p2: "Teachers, schools and community groups are welcome to arrange a visit or a workshop.",
     prog_cta: "Bring a group",
 
-    space_eyebrow: "Inside Kapchan",
+    space_eyebrow: "Inside Kapchay",
     space_title: "The space",
     space_lede: "The studio, the murals, the workshops and the people who pass through. Tap any photo to enlarge.",
 
-    artist_eyebrow: "The artist behind the space",
+    artist_eyebrow: "The host of Kapchay",
     artist_title: "Inti",
-    artist_p1: "Kapchan is the studio of the self-taught artist Inti — known across Lobitos for his fish, his faces and his tag. See his paintings, prints and hand-painted clothing on his personal website.",
+    artist_p1: "Inti is the self-taught artist who hosts Kapchay, the cultural and creative center he built and runs in Lobitos — known across town for his fish, his faces and his tag. See his paintings, prints and hand-painted clothing on his personal website.",
     artist_cta: "Visit tataintiart.com",
 
     contact_eyebrow: "Get in touch",
     contact_title: "Visit, stay, or bring a group",
-    contact_lede: "Kapchan is in Lobitos, Piura. The fastest way to reach us is by message.",
+    contact_lede: "Kapchay is in Lobitos, Piura. The fastest way to reach us is by message.",
     contact_loc: "Lobitos · Piura · Peru",
 
     footer_loc: "Lobitos · Piura · Peru",
@@ -56,22 +56,22 @@ const I18N = {
   },
 
   es: {
-    meta_desc: "Kapchan — un espacio creativo en Lobitos, Perú, hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
+    meta_desc: "Kapchay es un centro cultural y creativo en Lobitos, Perú, dirigido por el artista Inti — hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
     header_loc: "Lobitos · Piura · Perú",
     nav_about: "El espacio", nav_residency: "Residencia", nav_programs: "Programas",
     nav_space: "El Lugar", nav_artist: "El Artista", nav_contact: "Contacto",
 
-    hero_eyebrow: "Espacio creativo · Lobitos, Perú",
-    hero_sub: "Un espacio creativo en la costa norte del Perú — hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
+    hero_eyebrow: "Centro cultural y creativo · Lobitos, Perú",
+    hero_sub: "Un centro cultural y creativo en la costa norte del Perú, dirigido por el artista Inti — hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
     hero_cta1: "Residencias artísticas", hero_cta2: "Programas educativos",
 
-    about_eyebrow: "El espacio",
-    about_title: "¿Qué es Kapchan?",
-    about_p1: "Kapchan es un gran espacio creativo en Lobitos, un pueblo de surf en la costa desértica de Piura, al norte del Perú. Antes un galpón vacío, hoy es un taller vivo — paredes de ladrillo blanco, luz abierta, murales en cada rincón — donde la gente viene a crear, vivir y aprender en comunidad.",
-    about_p2: "Es la casa y el taller del artista Inti, y una puerta abierta tanto para artistas visitantes como para los niños de la zona. Aquí, el arte es algo compartido.",
+    about_eyebrow: "Anfitrión: Inti",
+    about_title: "¿Qué es Kapchay?",
+    about_p1: "Kapchay es un centro cultural y creativo en Lobitos, un pueblo de surf en la costa desértica de Piura, al norte del Perú. Antes un galpón vacío, hoy es un taller vivo — paredes de ladrillo blanco, luz abierta, murales en cada rincón — donde la gente viene a crear, vivir y aprender en comunidad.",
+    about_p2: "Kapchay está a cargo del artista Inti, quien vive y trabaja aquí y mantiene sus puertas abiertas tanto para artistas visitantes como para los niños de la zona. Aquí, el arte es algo compartido.",
 
     res_eyebrow: "Artistas en residencia",
-    res_title: "Vive y crea en Kapchan",
+    res_title: "Vive y crea en Kapchay",
     res_p1: "Los artistas visitantes son bienvenidos a vivir y trabajar en el espacio junto a Inti. Los residentes tienen lugar para crear, acceso al taller y sus materiales, y el ritmo tranquilo de Lobitos — el surf, la luz del desierto y la comunidad que rodea el espacio.",
     res_li1: "Un lugar para vivir dentro de un taller en activo",
     res_li2: "Espacio de taller y materiales compartidos",
@@ -81,22 +81,22 @@ const I18N = {
     prog_eyebrow: "Para la comunidad",
     prog_title: "Programas de arte gratuitos",
     prog_free: "Gratis",
-    prog_p1: "Kapchan abre sus puertas a los escolares de la zona con talleres de arte gratuitos y prácticos — dibujo, pintura y grabado en el espacio real de un artista.",
+    prog_p1: "Kapchay abre sus puertas a los escolares de la zona con talleres de arte gratuitos y prácticos — dibujo, pintura y grabado en el espacio real de un artista.",
     prog_p2: "Maestros, colegios y grupos de la comunidad son bienvenidos a coordinar una visita o un taller.",
     prog_cta: "Traer un grupo",
 
-    space_eyebrow: "Dentro de Kapchan",
+    space_eyebrow: "Dentro de Kapchay",
     space_title: "El lugar",
     space_lede: "El taller, los murales, los talleres y las personas que pasan por aquí. Toca cualquier foto para ampliarla.",
 
-    artist_eyebrow: "El artista detrás del espacio",
+    artist_eyebrow: "El anfitrión de Kapchay",
     artist_title: "Inti",
-    artist_p1: "Kapchan es el taller del artista autodidacta Inti — conocido en todo Lobitos por sus peces, sus rostros y su firma. Mira sus pinturas, grabados y ropa pintada a mano en su página personal.",
+    artist_p1: "Inti es el artista autodidacta que dirige Kapchay, el centro cultural y creativo que construyó y mantiene en Lobitos — conocido en todo el pueblo por sus peces, sus rostros y su firma. Mira sus pinturas, grabados y ropa pintada a mano en su página personal.",
     artist_cta: "Visita tataintiart.com",
 
     contact_eyebrow: "Escríbenos",
     contact_title: "Visita, quédate o trae un grupo",
-    contact_lede: "Kapchan está en Lobitos, Piura. La forma más rápida de contactarnos es por mensaje.",
+    contact_lede: "Kapchay está en Lobitos, Piura. La forma más rápida de contactarnos es por mensaje.",
     contact_loc: "Lobitos · Piura · Perú",
 
     footer_loc: "Lobitos · Piura · Perú",
@@ -110,14 +110,14 @@ const I18N = {
 
 const WA_MESSAGES = {
   en: {
-    general:   "Hola! I found the Kapchan website and would love to get in touch.",
-    residency: "Hola! I'm interested in an artist residency at Kapchan in Lobitos. Could you tell me more?",
-    programs:  "Hola! I'd like to ask about Kapchan's free art programs for children / groups."
+    general:   "Hola! I found the Kapchay website and would love to get in touch.",
+    residency: "Hola! I'm interested in an artist residency at Kapchay in Lobitos. Could you tell me more?",
+    programs:  "Hola! I'd like to ask about Kapchay's free art programs for children / groups."
   },
   es: {
-    general:   "¡Hola! Encontré la página de Kapchan y me encantaría ponerme en contacto.",
-    residency: "¡Hola! Me interesa una residencia artística en Kapchan, en Lobitos. ¿Me cuentan más?",
-    programs:  "¡Hola! Quisiera consultar por los programas de arte gratuitos de Kapchan para niños / grupos."
+    general:   "¡Hola! Encontré la página de Kapchay y me encantaría ponerme en contacto.",
+    residency: "¡Hola! Me interesa una residencia artística en Kapchay, en Lobitos. ¿Me cuentan más?",
+    programs:  "¡Hola! Quisiera consultar por los programas de arte gratuitos de Kapchay para niños / grupos."
   }
 };
 
@@ -128,12 +128,12 @@ const SPACE = [
   "images/gallery/k10.jpg","images/gallery/k11.jpg","images/gallery/k12.jpg"
 ];
 
-let currentLang = localStorage.getItem("kapchan-lang") ||
+let currentLang = localStorage.getItem("kapchay-lang") ||
   ((navigator.language || "en").toLowerCase().startsWith("es") ? "es" : "en");
 
 function applyLang(lang){
   currentLang = lang;
-  localStorage.setItem("kapchan-lang", lang);
+  localStorage.setItem("kapchay-lang", lang);
   document.documentElement.lang = lang;
   const dict = I18N[lang];
   document.querySelectorAll("[data-i18n]").forEach(el => {
@@ -189,7 +189,7 @@ function buildGallery(){
   const g = document.getElementById("spaceGrid");
   if (!g) return;
   g.innerHTML = SPACE.map((src, i) =>
-    `<figure data-i="${i}"><span class="frame"><img src="${src}" alt="Inside Kapchan" loading="lazy"></span></figure>`
+    `<figure data-i="${i}"><span class="frame"><img src="${src}" alt="Inside Kapchay" loading="lazy"></span></figure>`
   ).join("");
   g.querySelectorAll("figure").forEach(f =>
     f.addEventListener("click", () => openLightbox(+f.dataset.i)));
