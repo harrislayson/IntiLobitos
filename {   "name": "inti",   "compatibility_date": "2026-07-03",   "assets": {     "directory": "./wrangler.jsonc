@@ -1,0 +1,11 @@
+{
+  "name": "IntiLobitos",
+  "compatibility_date": "2026-07-03",
+  "assets": {
+    "directory": "./"
+  },
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "kapchan.com", "custom_domain": true }
+  ]
+}
