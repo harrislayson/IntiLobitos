@@ -124,7 +124,7 @@ const WA_MESSAGES = {
 const SPACE = [
   "images/gallery/k01.jpg","images/gallery/k02.jpg","images/gallery/k03.jpg",
   "images/gallery/k04.jpg","images/gallery/k05.jpg","images/gallery/k06.jpg",
-  "images/gallery/k07.jpg","images/gallery/k08.jpg","images/gallery/k09.jpg",
+  "images/gallery/k08.jpg","images/gallery/k09.jpg",
   "images/gallery/k10.jpg","images/gallery/k11.jpg","images/gallery/k12.jpg"
 ];
 
