@@ -15,7 +15,7 @@
     .hero-title-text{ font-family:"UnifrakturMaguntia", var(--display); font-weight:400; letter-spacing:.01em;
       font-size:clamp(3.8rem,12vw,8rem); line-height:.95; margin:0 0 .2em;
       text-shadow:0 6px 26px rgba(0,0,0,.45); }
-    .about-fig.kap img{ aspect-ratio:4/3; width:100%; object-fit:cover; box-shadow:var(--shadow); border-radius:12px; }
+    .about-fig.kap img{ width:100%; height:auto; aspect-ratio:auto; display:block; object-fit:contain; box-shadow:var(--shadow); border-radius:12px; }
     .artist-band{ display:grid; grid-template-columns:.8fr 1.2fr; gap:clamp(28px,5vw,60px); align-items:center; }
     .artist-band .split-fig img{ aspect-ratio:3/4; }
     @media (max-width:760px){ .artist-band{ grid-template-columns:1fr; } .artist-band .split-fig{ order:-1; } }
