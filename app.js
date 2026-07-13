@@ -4,23 +4,23 @@
 
 const I18N = {
   en: {
-    meta_desc: "Kapchay is a cultural and creative center in Lobitos, Peru, hosted by the artist Inti — home to artist residencies and free art programs for the community.",
+    meta_desc: "Kapchay is a cultural and creative center in Lobitos, Peru, founded and directed by the artist Inti — home to artist residencies and free art programs for the community.",
     header_loc: "Lobitos · Piura · Peru",
     nav_about: "About", nav_residency: "Residency", nav_programs: "Programs",
     nav_space: "The Space", nav_artist: "The Artist", nav_contact: "Contact",
 
     hero_eyebrow: "Cultural & creative center · Lobitos, Peru",
-    hero_sub: "A cultural and creative center on the north coast of Peru, hosted by the artist Inti — home to artist residencies and free art programs for the community.",
+    hero_sub: "A cultural and creative center on the north coast of Peru, founded and directed by the artist Inti — home to artist residencies and free art programs for the community.",
     hero_cta1: "Artist residencies", hero_cta2: "Education programs",
 
-    about_eyebrow: "Hosted by Inti",
+    about_eyebrow: "Founded & directed by Inti",
     about_title: "What is Kapchay?",
-    about_p1: "Kapchay is a cultural and creative center in Lobitos, a surf town on the desert coast of Piura, in northern Peru. Once an empty warehouse, it is now a living studio — white brick walls, open light, murals on every surface — where people come to make, live and learn together.",
-    about_p2: "Kapchay is hosted by the artist Inti, who lives and works here and keeps its doors open to visiting artists and local children alike. Here, art is something shared.",
+    about_p1: "Kapchay is a cultural and creative center in Lobitos, a surf town on the desert coast of Piura, in northern Peru. Inti turned an empty warehouse into a living studio — white brick walls, open light, murals on every surface — where people come to make, live and learn together.",
+    about_p2: "The artist Inti founded and directs Kapchay. He lives and works here and opens its doors to visiting artists and local children alike. Here, art is something shared.",
 
     res_eyebrow: "Artists in residence",
     res_title: "Live and create at Kapchay",
-    res_p1: "Visiting artists are welcome to live and work in the space alongside Inti. Residents get room to make, access to the studio and its materials, and the slow rhythm of Lobitos — the surf, the desert light, and the community around the space.",
+    res_p1: "Inti welcomes visiting artists to live and work in the space alongside him. Residents get room to make, access to the studio and its materials, and the slow rhythm of Lobitos — the surf, the desert light, and the community around the space.",
     res_li1: "A place to live inside a working studio",
     res_li2: "Studio space and shared materials",
     res_li3: "Days by the ocean in Lobitos",
@@ -29,7 +29,7 @@ const I18N = {
     prog_eyebrow: "For the community",
     prog_title: "Free art programs",
     prog_free: "Free",
-    prog_p1: "Kapchay opens its doors to local schoolchildren with free, hands-on art workshops — drawing, painting and printmaking in a real artist's space.",
+    prog_p1: "Inti opens Kapchay to local schoolchildren with free, hands-on art workshops — drawing, painting and printmaking in a real artist's space.",
     prog_p2: "Teachers, schools and community groups are welcome to arrange a visit or a workshop.",
     prog_cta: "Bring a group",
 
@@ -37,9 +37,9 @@ const I18N = {
     space_title: "The space",
     space_lede: "The studio, the murals, the workshops and the people who pass through. Tap any photo to enlarge.",
 
-    artist_eyebrow: "The host of Kapchay",
+    artist_eyebrow: "The founder of Kapchay",
     artist_title: "Inti",
-    artist_p1: "Inti is the self-taught artist who hosts Kapchay, the cultural and creative center he built and runs in Lobitos — known across town for his fish, his faces and his tag. See his paintings, prints and hand-painted clothing on his personal website.",
+    artist_p1: "Inti is the self-taught artist who founded and directs Kapchay, the cultural and creative center he built in Lobitos — known across town for his fish, his faces and his tag. See his paintings, prints and hand-painted clothing on his personal website.",
     artist_cta: "Visit tataintiart.com",
 
     contact_eyebrow: "Get in touch",
@@ -56,23 +56,23 @@ const I18N = {
   },
 
   es: {
-    meta_desc: "Kapchay es un centro cultural y creativo en Lobitos, Perú, dirigido por el artista Inti — hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
+    meta_desc: "Kapchay es un centro cultural y creativo en Lobitos, Perú, fundado y dirigido por el artista Inti — hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
     header_loc: "Lobitos · Piura · Perú",
     nav_about: "El espacio", nav_residency: "Residencia", nav_programs: "Programas",
     nav_space: "El Lugar", nav_artist: "El Artista", nav_contact: "Contacto",
 
     hero_eyebrow: "Centro cultural y creativo · Lobitos, Perú",
-    hero_sub: "Un centro cultural y creativo en la costa norte del Perú, dirigido por el artista Inti — hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
+    hero_sub: "Un centro cultural y creativo en la costa norte del Perú, fundado y dirigido por el artista Inti — hogar de residencias artísticas y programas de arte gratuitos para la comunidad.",
     hero_cta1: "Residencias artísticas", hero_cta2: "Programas educativos",
 
-    about_eyebrow: "Anfitrión: Inti",
+    about_eyebrow: "Fundado y dirigido por Inti",
     about_title: "¿Qué es Kapchay?",
-    about_p1: "Kapchay es un centro cultural y creativo en Lobitos, un pueblo de surf en la costa desértica de Piura, al norte del Perú. Antes un galpón vacío, hoy es un taller vivo — paredes de ladrillo blanco, luz abierta, murales en cada rincón — donde la gente viene a crear, vivir y aprender en comunidad.",
-    about_p2: "Kapchay está a cargo del artista Inti, quien vive y trabaja aquí y mantiene sus puertas abiertas tanto para artistas visitantes como para los niños de la zona. Aquí, el arte es algo compartido.",
+    about_p1: "Kapchay es un centro cultural y creativo en Lobitos, un pueblo de surf en la costa desértica de Piura, al norte del Perú. Inti convirtió un galpón vacío en un taller vivo — paredes de ladrillo blanco, luz abierta, murales en cada rincón — donde la gente viene a crear, vivir y aprender en comunidad.",
+    about_p2: "El artista Inti fundó y dirige Kapchay. Vive y trabaja aquí y abre sus puertas tanto a artistas visitantes como a los niños de la zona. Aquí, el arte es algo compartido.",
 
     res_eyebrow: "Artistas en residencia",
     res_title: "Vive y crea en Kapchay",
-    res_p1: "Los artistas visitantes son bienvenidos a vivir y trabajar en el espacio junto a Inti. Los residentes tienen lugar para crear, acceso al taller y sus materiales, y el ritmo tranquilo de Lobitos — el surf, la luz del desierto y la comunidad que rodea el espacio.",
+    res_p1: "Inti recibe a artistas visitantes para vivir y trabajar en el espacio junto a él. Los residentes tienen lugar para crear, acceso al taller y sus materiales, y el ritmo tranquilo de Lobitos — el surf, la luz del desierto y la comunidad que rodea el espacio.",
     res_li1: "Un lugar para vivir dentro de un taller en activo",
     res_li2: "Espacio de taller y materiales compartidos",
     res_li3: "Días junto al mar en Lobitos",
@@ -81,7 +81,7 @@ const I18N = {
     prog_eyebrow: "Para la comunidad",
     prog_title: "Programas de arte gratuitos",
     prog_free: "Gratis",
-    prog_p1: "Kapchay abre sus puertas a los escolares de la zona con talleres de arte gratuitos y prácticos — dibujo, pintura y grabado en el espacio real de un artista.",
+    prog_p1: "Inti abre Kapchay a los escolares de la zona con talleres de arte gratuitos y prácticos — dibujo, pintura y grabado en el espacio real de un artista.",
     prog_p2: "Maestros, colegios y grupos de la comunidad son bienvenidos a coordinar una visita o un taller.",
     prog_cta: "Traer un grupo",
 
@@ -89,9 +89,9 @@ const I18N = {
     space_title: "El lugar",
     space_lede: "El taller, los murales, los talleres y las personas que pasan por aquí. Toca cualquier foto para ampliarla.",
 
-    artist_eyebrow: "El anfitrión de Kapchay",
+    artist_eyebrow: "El fundador de Kapchay",
     artist_title: "Inti",
-    artist_p1: "Inti es el artista autodidacta que dirige Kapchay, el centro cultural y creativo que construyó y mantiene en Lobitos — conocido en todo el pueblo por sus peces, sus rostros y su firma. Mira sus pinturas, grabados y ropa pintada a mano en su página personal.",
+    artist_p1: "Inti es el artista autodidacta que fundó y dirige Kapchay, el centro cultural y creativo que construyó en Lobitos — conocido en todo el pueblo por sus peces, sus rostros y su firma. Mira sus pinturas, grabados y ropa pintada a mano en su página personal.",
     artist_cta: "Visita tataintiart.com",
 
     contact_eyebrow: "Escríbenos",
